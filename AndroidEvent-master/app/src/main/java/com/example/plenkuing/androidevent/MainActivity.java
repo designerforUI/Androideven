@@ -20,7 +20,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
     private RadioGroup rg_tab_bar;
     private RadioButton listen_rbt;
     private listenFrag fg1;
-    private CallbackFrag fg2;
+    private Test fg2;
     private SettingFrag fg3;
     private HandlerFrag fg4;
 
@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
                 //Toast.makeText(this,"hhh",Toast.LENGTH_LONG).show();
                 break;
             case R.id.callback_rg:
-                fg2 = new CallbackFrag();
+                fg2 = new Test();
                 fragmentTransaction.add(R.id.frag,fg2);
                 break;
             case R.id.setting_rg:
