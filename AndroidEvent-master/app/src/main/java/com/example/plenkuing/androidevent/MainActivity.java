@@ -22,7 +22,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
     private listenFrag fg1;
     private Test fg2;
     private SettingFrag fg3;
-    private HandlerFrag fg4;
+    private Test2 fg4;
 
 
 
@@ -74,7 +74,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
                 fragmentTransaction.add(R.id.frag,fg3);
                 break;
             case R.id.handler_rg:
-                fg4 = new HandlerFrag();
+                fg4 = new Test2();
                 fragmentTransaction.add(R.id.frag,fg4);
                 break;
 
@@ -168,12 +168,5 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
         }
         return hasData;
     }
-
-
-
-
-
-
-
 
 }
