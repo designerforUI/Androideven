@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        />
+    <Button
+        android:id="@+id/insideBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="内部类"
+        />
+    <Button
+        android:id="@+id/outsideBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="外部类"
+        />
+    <Button
+        android:id="@+id/anonymousBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="匿名内部类"
+        />
+    <Button
+        android:id="@+id/activityBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Activity"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:id="@+id/tagBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="绑定到标签"
+        android:onClick="tagClick"
+        />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:hint="显示屏幕方向"
+        android:cursorVisible="false"
+        />
+        <EditText
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示手机方向控制设备"
+            android:cursorVisible="false"/>
+        <EditText
+            android:id="@+id/touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示触摸屏状态"
+            android:cursorVisible="false"/>
+        <EditText
+            android:id="@+id/mnc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示移动网络代号"
+            android:cursorVisible="false"/>
+        <Button
+            android:id="@+id/Bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取手机信息"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
